@@ -6,12 +6,46 @@
 
 ![image](https://github.com/cloudnloud/.Netapplication/blob/master/Azure%20Web-App-Deployment/Images/visualstudio1.png)
 **Note** : Professional and enterprise version are licensed
-- Step 2: 
-- Step 3:
-- Step 4:
-- Step 5:  
-- Step 6:
-- Step 7:
-- Step 8:
-- Step 9:
-- Step 10: 
+- Step 2:  Open the Visualstudio.exc from download folder 
+- Step 3:  After downloading double click on VisualStudioSetup.exc file which is downloaded. 
+![image](https://github.com/cloudnloud/.Netapplication/blob/master/Azure%20Web-App-Deployment/Images/visualstudio2.png)
+- Step 4:  Select workload need to installed. (visualstudio.3)
+![image]()
+It will ask for workloads, Check all the necessary workloads to install in visual studio.
+![image]()
+**Workload:**
+-	ASP. Net and Web development.
+-	Azure Development.
+-	Visual Studio Extension Development.
+-	Add if you need anything wanted.
+**Language packs:**
+-	Select English as default
+**Installation Location:**
+-	Keep all the installation in C:\Program files
+**Individual Components:**
+- Select all the .NET Framework(To support all downgraded project) (visualstudio4)
+![image]()
+- Step 5:  Provide Installation locations (visualstudio5)
+![image]()
+- Step 6: Select Install and download, it will take some time to install VS (visualstudio6)
+![image]()
+- Step 7: Select Theme to finish the installation (visualstudio7)
+![image]()
+- Select the Theme which you preferred.
+- Step 8: Installation completed When you see the window your are successfully installed VS
+- Step 9: check image (visualstudio8)
+![image]()
+1.	Clone a repository(You can clone project from github
+2.	Open a project(To open existing project)
+3.	Open a Folder(to open project folder)
+4.	Create a new project
+- Step 10: Clone project from GitHub using Visual studio (visualstudio9)
+![image]()
+1.	Enter the repository URL of GitHub in Repository location.
+2.	Provide the local path where to clone project.
+3.	After clicking on clone the project will be clone in respective path.
+- To Open a cloned project (visual studio 10)
+![image]()
+1	Get into the cloned project folder in local.
+2	Open the solution file in Visual studio.
+
