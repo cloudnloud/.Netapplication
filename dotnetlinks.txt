@@ -1,0 +1,13 @@
+https://www.ahmetkucukoglu.com/en/how-to-publish-asp-net-core-application-by-using-jenkins/
+https://medium.com/southworks/creating-a-jenkins-pipeline-for-a-net-core-application-937a2165b073
+https://faun.pub/jenkins-ci-cd-to-deploy-an-asp-net-core-application-6145b5308bff
+https://docs.microsoft.com/en-us/azure-stack/user/azure-stack-dev-start-howto-vm-dotnet?view=azs-2108
+
+
+
+
+https://ftp-chi.osuosl.org/pub/jenkins/windows-stable/2.332.2/jenkins.msi
+https://download.microsoft.com/download/0/1/D/01DC28EA-638C-4A22-A57B-4CEF97755C6C/WebDeploy_amd64_en-US.
+https://download.visualstudio.microsoft.com/download/pr/0c2039d2-0072-43a8-bb20-766b9a91d001/0e2288a2f07743e63778416b2367bb88/dotnet-hosting-6.0.4-win.exe
+
+https://download.visualstudio.microsoft.com/download/pr/0c2039d2-0072-43a8-bb20-766b9a91d001/0e2288a2f07743e63778416b2367bb88/dotnet-hosting-6.0.4-win.exe
