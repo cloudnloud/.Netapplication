@@ -45,6 +45,6 @@ It will ask for workloads, Check all the necessary workloads to install in visua
 3.	After clicking on clone the project will be clone in respective path.
 - To Open a cloned project (visual studio 10)
 ![image](https://github.com/cloudnloud/.Netapplication/blob/master/Azure%20Web-App-Deployment/Images/visualstudi10.png)
-1	Get into the cloned project folder in local.
-2	Open the solution file in Visual studio.
+1.	Get into the cloned project folder in local.
+2.	Open the solution file in Visual studio.
 
