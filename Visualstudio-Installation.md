@@ -1,13 +1,17 @@
 # Visual Studio Installation
 
 ### Steps:
-- Step 1:  Install AZURE CLI in Rocky Linux Virtual Machine
-- Step 2:  First install docker in the local linux machine
-- Step 3:  Download a sample application
-- Step 4:  Test the sample application
-- Step 5:  Deploy and use Azure Container Registry
-- Step 6:  Install kubectl command 
-- Step 7:  Deploy an Azure Kubernetes Service (AKS) cluster
-- Step 8:  Run applications in Azure Kubernetes Service (AKS)
-- Step 9:  Scale application in Azure Kubernetes Service (AKS)
-- Step 10: Update the application in Azure Kubernetes Service (AKS)
+- Step 1:  Install the Visual Studio Community Edition which is free. Follow below link and click on download Visual Studio
+[Check this link after logging in](https://visualstudio.microsoft.com/vs/community/)
+![image](https://github.com/cloudnloud/.Netapplication/blob/master/Azure%20Web-App-Deployment/Images/visualstudio1.png)
+
+ ** Note ** : Professional and enterprise version are licensed
+- Step 2:
+- Step 3:
+- Step 4:
+- Step 5:  
+- Step 6:
+- Step 7:
+- Step 8:
+- Step 9:
+- Step 10: 
