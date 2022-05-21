@@ -10,7 +10,6 @@
 - Step 3:   Select Add a publish profile(Image: add_publish_profile)
 
 ![image](https://github.com/cloudnloud/.Netapplication/blob/master/Azure%20Web-App-Deployment/Images/add_publish_profile.png)
-
 - Step 4:   Choose Azure(Publish your application to the Microsoft cloud)
 
 ![image](https://github.com/cloudnloud/.Netapplication/blob/master/Azure%20Web-App-Deployment/Images/select_publish_azure.png)
