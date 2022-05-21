@@ -5,7 +5,7 @@
 [Check this link  ](https://visualstudio.microsoft.com/vs/community/)
 ![image](https://github.com/cloudnloud/.Netapplication/blob/master/Azure%20Web-App-Deployment/Images/visualstudio1.png)
 ** Note ** : Professional and enterprise version are licensed
-- Step 2:
+- Step 2: 
 - Step 3:
 - Step 4:
 - Step 5:  
