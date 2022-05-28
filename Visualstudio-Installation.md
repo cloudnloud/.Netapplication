@@ -1,9 +1,8 @@
 # Visual Studio Installation
 
 ### Steps:
--** Step 1:**  Install the Visual Studio Community Edition which is free. Follow below link and click on download Visual Studio
+- ** Step 1:**  Install the Visual Studio Community Edition which is free. Follow below link and click on download Visual Studio
 [Check this link  ](https://visualstudio.microsoft.com/vs/community/)
-
 ![image](https://github.com/cloudnloud/.Netapplication/blob/master/Azure%20Web-App-Deployment/Images/visualstudio1.png)
 **Note** : Professional and enterprise version are licensed
 - **Step 2:**  Open the Visualstudio.exc from download folder 
@@ -22,17 +21,17 @@ It will ask for workloads, Check all the necessary workloads to install in visua
 **Installation Location:**
 -	Keep all the installation in C:\Program files
 **Individual Components:**
-- Select all the .NET Framework(To support all downgraded projects) (visualstudio4)
+- Select all the .NET Framework(To support all downgraded projects)
 ![image](https://github.com/cloudnloud/.Netapplication/blob/master/Azure%20Web-App-Deployment/Images/visualstudio4.png)
-- **Step 5:**  Provide Installation locations (visualstudio5)
+- **Step 5:**  Provide Installation locations 
 ![image](https://github.com/cloudnloud/.Netapplication/blob/master/Azure%20Web-App-Deployment/Images/visualstudio5.png)
-- **Step 6:** Select Install and download, it will take some time to install VS (visualstudio6)
+- **Step 6:** Select Install and download, it will take some time to install VS 
 ![image](https://github.com/cloudnloud/.Netapplication/blob/master/Azure%20Web-App-Deployment/Images/visualstudio6.png)
-- **Step 7:** Select Theme to finish the installation (visualstudio7)
+- **Step 7:** Select Theme to finish the installation
 ![image](https://github.com/cloudnloud/.Netapplication/blob/master/Azure%20Web-App-Deployment/Images/visualstudio7.png)
 - Select the Theme which you preferred.
 - **Step 8:** Installation completed When you see the window your are successfully installed VS
-- **Step 9:** check image (visualstudio8)
+- **Step 9:** check image 
 ![image](https://github.com/cloudnloud/.Netapplication/blob/master/Azure%20Web-App-Deployment/Images/visualstudio8.png)
 1.	Clone a repository(You can clone project from github
 2.	Open a project(To open existing project)
