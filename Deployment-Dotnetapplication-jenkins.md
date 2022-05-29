@@ -41,10 +41,14 @@ Jenkins will need Git to be able to pull the code from repositories. You can dow
  (https://git-scm.com/download/win)
 - Install choclatey in powershell
 ```
+Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
+```
+- Install Nuget  
+(https://community.chocolatey.org/packages?q=nuget)
+-Now open powershell in Administrative mode and give below command 
+```
 choco install nuget.commandline
 ```
-- Install Nuget  (please follow below link )
-(https://community.chocolatey.org/packages?q=nuget)
 
 
  ## Step-4: Download Jenkins 
@@ -110,7 +114,8 @@ http://localhost:[port number]
 ![image](https://github.com/cloudnloud/.Netapplication/blob/master/images/executecommand.png)
 - click on Apply and save
 ## step -13: Now click on Build 
-![image(https://github.com/cloudnloud/.Netapplication/blob/master/Deployment-Dotnetapplication-jenkins-images/build_success.png)
+![image](https://github.com/cloudnloud/.Netapplication/blob/master/Deployment-Dotnetapplication-jenkins-images/build_success.png)
+
 
 
 
