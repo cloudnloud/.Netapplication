@@ -97,13 +97,16 @@ http://localhost:[port number]
 ## step-9:  Enter repository URL
 ![image](https://github.com/cloudnloud/.Netapplication/blob/master/images/git_scm.png)
 ## step-11:  Under build trigger 
-! [image](https://github.com/cloudnloud/.Netapplication/blob/master/images/buildtrigger_image.png)
+![image](https://github.com/cloudnloud/.Netapplication/blob/master/images/buildtrigger_image.png)
 ## step-12: Under build,
 - Click on “Add build step”
 - Click on “Execute Windows batch command” and add the commands you want to execute during the build process.
-![image] (https://github.com/cloudnloud/.Netapplication/blob/master/images/nugget_image.png)
+![image](https://github.com/cloudnloud/.Netapplication/blob/master/images/nugget_image.png)
+
 - click on Msbuild and give this following command 
 ![image](https://github.com/cloudnloud/.Netapplication/blob/master/images/msbuild_file.png)
+
+
 ![image](https://github.com/cloudnloud/.Netapplication/blob/master/images/executecommand.png)
 - click on Apply and save
 ## step -13: Now click on Build 
