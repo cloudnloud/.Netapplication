@@ -4,20 +4,20 @@
 - you must create Windows server 
 - Connect to the Windows server using RDP client 
 ## Step-2: 
- - Go in to server manager (server_manager)
- ![image](https://github.com/cloudnloud/.Netapplication/blob/master/images/server_manager.png)
+ - Go in to server manager in VM  (server_manager)
+ ![image](https://github.com/cloudnloud/.Netapplication/blob/master/Deployment-Dotnetapplication-jenkins-images/server_manager.png)
  - In the server manager go to the local manager and make sure IE enhanced security configuration is off 
- ![image](https://github.com/cloudnloud/.Netapplication/blob/master/images/IE_configuration.png)
+ ![image](https://github.com/cloudnloud/.Netapplication/blob/master/Deployment-Dotnetapplication-jenkins-images/IE_configuration.png)
 - Install Necessary software using the below link 
 (https://ninite.com/)
 ## Step-3: Install Necessary Software In VM
  -  select the bundle depending on your .net application
  (https://dotnet.microsoft.com/en-us/download/dotnet/3.1)
- ![image](https://github.com/cloudnloud/.Netapplication/blob/master/images/windows_hostingbundle.png)
+ ![image](https://github.com/cloudnloud/.Netapplication/blob/master/Deployment-Dotnetapplication-jenkins-images/Hostingbundles.png)
  
  - now install web deployment (select appropriate version depending upon VM)
  (https://www.microsoft.com/en-us/download/details.aspx?id=43717)
-  ![image](https://github.com/cloudnloud/.Netapplication/blob/master/images/webdeployment_64.png)
+  ![image](https://github.com/cloudnloud/.Netapplication/blob/master/Deployment-Dotnetapplication-jenkins-images/webdeployment_64.png)
  -  Install IIS (with Management Console)
  
  ````
@@ -31,7 +31,7 @@ Install-WindowsFeature -Name Web-Mgmt-Service
   (https://www.oracle.com/java/technologies/downloads/#java8-windows8)
  - configure environmental variables for JDK 8 
 environmental variables > system variables > go with browse and select the file location of JDK
- ![image](https://github.com/cloudnloud/.Netapplication/blob/master/images/Environmental_variables2.png)
+ ![image](https://github.com/cloudnloud/.Netapplication/blob/master/Deployment-Dotnetapplication-jenkins-images/Environmental_variables2.png)
  ## Other tools required are :
  - Install Visual studio 2019
  (https://visualstudio.microsoft.com/vs/community/)
@@ -70,7 +70,7 @@ choco install nuget.commandline
 http://localhost:[port number]
 ```
 - Navigate to the location on your system specified by the Unblock Jenkins page.
- ![image](https://github.com/cloudnloud/.Netapplication/blob/master/images/Unlock_jenkins.png)
+ ![image](https://github.com/cloudnloud/.Netapplication/blob/master/Deployment-Dotnetapplication-jenkins-images/Unlock_jenkins.png)
 
 - Open the initialAdminPassword file using a text editor such as Notepad.
 - Copy the password from the initialAdminPassword file.
@@ -78,7 +78,7 @@ http://localhost:[port number]
  
 ## Step-6: Customize Jenkins
 - Click the Install suggested plugins button to have Jenkins automatically install the most frequently used plugins.
-![image](https://github.com/cloudnloud/.Netapplication/blob/master/images/Install_suggestPlugin.png)
+![image](https://github.com/cloudnloud/.Netapplication/blob/master/Deployment-Dotnetapplication-jenkins-images/Install_suggestPlugin.png)
 -  After Jenkins finishes installing the plugins, enter the required information on the Create First Admin User page. Click Save and Continue to proceed.
 - On the Instance Configuration page, confirm the port number you want Jenkins to use and click Save and Finish to finish the initial customization.
 - Click the Start using Jenkins button to move to the Jenkins dashboard
@@ -88,10 +88,10 @@ http://localhost:[port number]
 
 ## Step-8: Configure Global tool configuration
 - configuring Git 
-![image](https://github.com/cloudnloud/.Netapplication/blob/master/images/git_configure.png)
+![image](https://github.com/cloudnloud/.Netapplication/blob/master/Deployment-Dotnetapplication-jenkins-images/git_configure.png)
 
 - Configuring Build tool MSBUILD
-![image](https://github.com/cloudnloud/.Netapplication/blob/master/images/msbuild_configure.png)
+![image](https://github.com/cloudnloud/.Netapplication/blob/master/Deployment-Dotnetapplication-jenkins-images/msbuild_configure.png)
 
 ## Step-9: Create New Item
 - Enter the name of the item you want to create. We shall use the “.netapplication” for this demo.
@@ -99,19 +99,19 @@ http://localhost:[port number]
 - Click Okay
 ## Step-10:  Enter Project details
 ## step-9:  Enter repository URL
-![image](https://github.com/cloudnloud/.Netapplication/blob/master/images/git_scm.png)
+![image](https://github.com/cloudnloud/.Netapplication/blob/master/Deployment-Dotnetapplication-jenkins-images/git_scm.png)
 ## step-11:  Under build trigger 
-![image](https://github.com/cloudnloud/.Netapplication/blob/master/images/buildtrigger_image.png)
+![image](https://github.com/cloudnloud/.Netapplication/blob/master/Deployment-Dotnetapplication-jenkins-images/buildtrigger_image.png)
 ## step-12: Under build,
 - Click on “Add build step”
 - Click on “Execute Windows batch command” and add the commands you want to execute during the build process.
-![image](https://github.com/cloudnloud/.Netapplication/blob/master/images/nugget_image.png)
+![image](https://github.com/cloudnloud/.Netapplication/blob/master/Deployment-Dotnetapplication-jenkins-images/nugget_image.png)
 
 - click on Msbuild and give this following command 
-![image](https://github.com/cloudnloud/.Netapplication/blob/master/images/msbuild_file.png)
+![image](https://github.com/cloudnloud/.Netapplication/blob/master/Deployment-Dotnetapplication-jenkins-images/msbuild_file.png)
 
 
-![image](https://github.com/cloudnloud/.Netapplication/blob/master/images/executecommand.png)
+![image](https://github.com/cloudnloud/.Netapplication/blob/master/Deployment-Dotnetapplication-jenkins-images/executecommand.png)
 - click on Apply and save
 ## step -13: Now click on Build 
 ![image](https://github.com/cloudnloud/.Netapplication/blob/master/Deployment-Dotnetapplication-jenkins-images/build_success.png)
