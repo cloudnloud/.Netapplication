@@ -38,6 +38,14 @@ environmental variables > system variables > go with browse and select the file 
 - Git for Windows
 Jenkins will need Git to be able to pull the code from repositories. You can download it from here.
  (https://git-scm.com/download/win)
+- Install choclatey in powershell
+```
+choco install nuget.commandline
+```
+- Install Nuget  (please follow below link )
+(https://community.chocolatey.org/packages?q=nuget)
+-
+
  ## Step-4: Download Jenkins 
 - Download Jenkins and install jenkins
  (https://www.jenkins.io/download/#downloading-jenkins)
@@ -95,8 +103,10 @@ http://localhost:[port number]
 ![image] (https://github.com/cloudnloud/.Netapplication/blob/master/images/nugget_image.png)
 - click on Msbuild and give this following command 
 ![image](https://github.com/cloudnloud/.Netapplication/blob/master/images/msbuild_file.png)
+![image](https://github.com/cloudnloud/.Netapplication/blob/master/images/executecommand.png)
 - click on Apply and save
 ## step -13: Now click on Build 
+![image(https://github.com/cloudnloud/.Netapplication/blob/master/Deployment-Dotnetapplication-jenkins-images/build_success.png)
 
 
 
