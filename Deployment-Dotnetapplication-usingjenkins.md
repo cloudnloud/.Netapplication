@@ -1,8 +1,10 @@
 # Deployment-Dotnet application
-## Step-1: Pre-requisites
+##  Step-1: Pre-requisites
 - You must have activated aws.amazon.com account or Azure account.
 - you must create Windows server 
 - Connect to the Windows server using RDP client 
+
+ 
 ## Step-2: 
  - Go in to server manager (server_manager)
  ![image](https://github.com/cloudnloud/.Netapplication/blob/master/images/server_manager.png)
@@ -10,7 +12,7 @@
  ![image](https://github.com/cloudnloud/.Netapplication/blob/master/images/IE_configuration.png)
 - Install Necessary software using the below link 
 (https://ninite.com/)
-## Step-3: Install Necessary Software In VM
+## Step-3: 
  -  select the bundle depending on your .net application
  (https://dotnet.microsoft.com/en-us/download/dotnet/3.1)
  ![image](https://github.com/cloudnloud/.Netapplication/blob/master/images/windows_hostingbundle.png)
@@ -19,13 +21,6 @@
  (https://www.microsoft.com/en-us/download/details.aspx?id=43717)
   ![image](https://github.com/cloudnloud/.Netapplication/blob/master/images/webdeployment_64.png)
  -  Install IIS (with Management Console)
- ````
- # Install IIS (with Management Console)
-Install-WindowsFeature -name Web-Server -IncludeManagementTools
-
-# Install Web Management Service
-Install-WindowsFeature -Name Web-Mgmt-Service
-```
  - download the JDK 8 and install it in VM
   (https://www.oracle.com/java/technologies/downloads/#java8-windows8)
  - configure environmental variables for JDK 8 
@@ -37,8 +32,10 @@ environmental variables > system variables > go with browse and select the file 
  
 - Git for Windows
 Jenkins will need Git to be able to pull the code from repositories. You can download it from here.
- (https://git-scm.com/download/win)
- ## Step-4: Download Jenkins 
+ ()
+ 
+
+## Step-4: Download Jenkins 
 - Download Jenkins and install jenkins
  (https://www.jenkins.io/download/#downloading-jenkins)
 - Once the download is complete, run the jenkins.msi installation file.
@@ -51,7 +48,7 @@ Jenkins will need Git to be able to pull the code from repositories. You can dow
 -  Select the features you want to install with Jenkins and click Next to continue.
 - Click Install to staOnce the installation is complete, click Finish to exit the install wizard.rt the installation process.
 
-## Step-5: Unblock Jenkins
+## Step-3: Unblock Jenkins
 - In your web browser, navigate to the port number you selected during the installation using the following address
 ```
 http://localhost:[port number]
@@ -63,40 +60,38 @@ http://localhost:[port number]
 - Copy the password from the initialAdminPassword file.
 - Paste the password in the Administrator password field on the Unblock Jenkins page and click Continue to proceed.
  
-## Step-6: Customize Jenkins
+## Step-4: Customize Jenkins
 - Click the Install suggested plugins button to have Jenkins automatically install the most frequently used plugins.
-![image](https://github.com/cloudnloud/.Netapplication/blob/master/images/Install_suggestPlugin.png)
+!image [image] (https://github.com/cloudnloud/.Netapplication/blob/master/images/Install_suggestPlugin.png)
 -  After Jenkins finishes installing the plugins, enter the required information on the Create First Admin User page. Click Save and Continue to proceed.
 - On the Instance Configuration page, confirm the port number you want Jenkins to use and click Save and Finish to finish the initial customization.
 - Click the Start using Jenkins button to move to the Jenkins dashboard
-## Step-7: Install Plugins
+## Step-5: Install Plugins
 - go to manage Jenkins > manage plugins > under Available go with MSBUILD
 - go with install without restart
 
-## Step-8: Configure Global tool configuration
+## Step-6: Configure Global tool configuration
 - configuring Git 
-![image](https://github.com/cloudnloud/.Netapplication/blob/master/images/git_configure.png)
-
+ ![image] (https://github.com/cloudnloud/.Netapplication/blob/master/images/git_configure.png)
 - Configuring Build tool MSBUILD
-![image](https://github.com/cloudnloud/.Netapplication/blob/master/images/msbuild_configure.png)
-
-## Step-9: Create New Item
+![image] (https://github.com/cloudnloud/.Netapplication/blob/master/images/msbuild_configure.png)
+## Step-7: Create New Item
 - Enter the name of the item you want to create. We shall use the “.netapplication” for this demo.
 - Select Freestyle project
 - Click Okay
-## Step-10:  Enter Project details
+## Step-8:  Enter Project details
 ## step-9:  Enter repository URL
-![image](https://github.com/cloudnloud/.Netapplication/blob/master/images/git_scm.png)
-## step-11:  Under build trigger 
-! [image](https://github.com/cloudnloud/.Netapplication/blob/master/images/buildtrigger_image.png)
-## step-12: Under build,
+![image] (https://github.com/cloudnloud/.Netapplication/blob/master/images/git_scm.png)
+## step-10:  Under build trigger 
+! [image] (https://github.com/cloudnloud/.Netapplication/blob/master/images/buildtrigger_image.png)
+## step-11: Under build,
 - Click on “Add build step”
 - Click on “Execute Windows batch command” and add the commands you want to execute during the build process.
-![image] (https://github.com/cloudnloud/.Netapplication/blob/master/images/nugget_image.png)
+![image] ()
 - click on Msbuild and give this following command 
-![image](https://github.com/cloudnloud/.Netapplication/blob/master/images/msbuild_file.png)
+![image] (https://github.com/cloudnloud/.Netapplication/blob/master/images/msbuild_file.png)
 - click on Apply and save
-## step -13: Now click on Build 
+## step -12: Now click on Build 
 
 
 
